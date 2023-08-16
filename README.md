@@ -13,7 +13,7 @@
 #### 六、命令行gdb运行：riscv32-esp-elf-gdb build/blink.elf -x gdbinit 
 
 #### 七、文件gdbinit内容：
-···
+```
 set remotetimeout 100
 target extended-remote :3333
 set remote hardware-watchpoint-limit 2
@@ -21,5 +21,5 @@ mon reset halt
 flushregs
 thb app_main
 c
-···
+```
 
