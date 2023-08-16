@@ -10,6 +10,8 @@
 
 #### 五、安装路径变了的话 修改.vscode文件夹中的launch.json 和 settings.json
 
+#### 六、如果vscode 无法打开openocd的话可以用ESP-IDF 5.0 CMD下手动运行 openocd -f board/esp32c3-builtin.cfg
+
 | Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-S2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- | -------- |
 
